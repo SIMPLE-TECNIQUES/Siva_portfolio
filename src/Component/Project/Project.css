@@ -1,0 +1,39 @@
+.project {
+    display: flex;
+    flex: 1;
+   
+    
+}
+a{
+    text-decoration: none;
+}
+
+.projectDescription {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgb(121, 195, 3);
+    background-image: url("../../Assets/pictures/project-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titledesc, .links {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.links>a{
+    color: white;
+    text-decoration: underline;
+}
+
+@media screen and (max-width : 460px) {
+    .project {
+        display: block;
+        margin-bottom: 2rem
+    }
+}
